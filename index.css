@@ -1,0 +1,601 @@
+@font-face {
+  font-family: massEffect;
+  src: url('https://unsmiley.github.io/me123.woff');
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: massEffect;
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image: url('https://stsci-opo.org/STScI-01GA6KKWG229B16K4Q38CH3BXS.png');
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#91c1d1",
+      endColorstr="#91d1c1",
+      GradientType=0);
+  text-align: center;
+  color: #fff;
+}
+
+h1 {
+  font-family: 'massEffect';
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 2em;
+}
+
+#quiz {
+  font-family: 'massEffect';
+  width: 800px;
+  margin: auto;
+}
+
+#questions {
+  font-size: 1.3em;
+}
+
+#answers {
+  list-style-type: none;
+  margin: 25px 0 0 0;
+  padding: 20px;
+  letter-spacing: 2px;
+  text-align: center;
+  margin-left: 77.5px;
+}
+
+#answers li {
+  float: left;
+  /*margin:0 5px 0 0;*/
+  margin: 0px 15px 15px 0px;
+  /*for determining distance between answers */
+  width: 250px;
+  height: 120px;
+  border: 2px orange solid;
+  position: relative;
+  padding: 15px;
+}
+
+#answers label,
+#answers input {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  font-size: 14px;
+  padding: 10px;
+}
+
+#answers input[type="radio"] {
+  opacity: 0.011;
+  z-index: 100;
+}
+
+#answers input[type="radio"]:checked+label {
+  opacity: 1;
+}
+
+#answers label {
+  padding: 5px;
+  cursor: pointer;
+  z-index: 90;
+  opacity: 0.7;
+  transition: opacity 0.2s linear;
+}
+
+#answers label:hover {
+  opacity: 1;
+}
+
+.button {
+  border: 2px solid #fff;
+  margin: 0.5em;
+  padding: 0.5em;
+  display: inline-block;
+  background-color: transparent;
+  text-transform: uppercase;
+  padding: 10px;
+  color: #fff;
+  font-family: 'massEffect';
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+#results {
+  display: none;
+}
+
+#error {
+  display: none;
+}
+
+/*GEOCITIES WEBPAGE STYLES */
+/* infiltrator styles */
+.infiltrator {
+  font-family: "massEffect";
+  font-size: 1.4em;
+  text-align: center;
+  color: white;
+}
+
+.infiltrator h1 {
+  font-size: 1.4em;
+  font-family: "massEffect";
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+.infiltrator a {
+  color: yellow;
+  margin: 0 10px 0 20px;
+}
+
+.infiltrator a:hover {
+  background-color: blue;
+}
+
+.infiltrator a:before {
+  margin-right: 10px;
+}
+
+.infiltrator div[id^='img'] {
+  margin-right: 10px;
+  width: 200px;
+  display: inline-block;
+}
+
+.infiltrator #img1 {
+  content: url('https://static.wikia.nocookie.net/masseffect/images/a/aa/Infiltrator-Guide.png');
+}
+
+.infiltrator #img2 {
+  content: url('https://static.wikia.nocookie.net/masseffect/images/3/3f/Infiltratorclasstransp.png');
+}
+
+.infiltrator div[id^='affiliate'] {
+  width: 100px;
+  margin-right: -10px;
+  display: inline-block;
+}
+
+/* sentinel styles */
+
+.sentinel {
+  font-family: "massEffect";
+  font-size: 1.4em;
+  text-align: center;
+  color: white;
+}
+
+.sentinel h1 {
+  font-size: 1.4em;
+  font-family: "massEffect";
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+.sentinel a {
+  color: darkgrey;
+  margin: 0 10px 0 20px;
+}
+
+
+.sentinel a:before {
+  content: url('https://web.archive.org/web/20091023163201/http://geocities.com/warhawkuac/doom/doomskullcursor.gif');
+  margin-right: 10px;
+}
+
+.sentinel div[id^='img'] {
+  margin-right: 10px;
+  width: 200px;
+  display: inline-block;
+}
+
+.sentinel #img1 {
+  content: url('https://static.wikia.nocookie.net/masseffect/images/d/d5/Sentinel-Guide.png');
+  margin: auto;
+}
+
+.sentinel #img2 {
+  content: url('https://static.wikia.nocookie.net/masseffect/images/2/2c/Sentinel_Class_Image_ME_LE.png/');
+  margin: auto;
+}
+
+.sentinel div[id^='affiliate'] {
+  width: 100px;
+  margin-right: -10px;
+  display: inline-block;
+  border: red solid;
+}
+
+/* vanguard styles */
+
+.vanguard {
+  font-family: "massEffect";
+  font-size: 1.4em;
+  text-align: center;
+  color: white;
+}
+
+.vanguard h1 {
+  font-size: 1.4em;
+  font-family: 'massEffect';
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+.vanguard a {
+  color: darkorange;
+  margin: 0 10px 0 20px;
+}
+
+.vanguard a:hover {
+  background-color: green;
+  cursor: url(https://web.archive.org/web/20091027003810/http://ca.geocities.com/EverlastingIllusions/Miscellanous/Cursor9.gif), auto;
+}
+
+.vanguard a:before {
+  content: url('https://web.archive.org/web/20090829195701/http://geocities.com/Athens/Parthenon/5567/dotdance.gif');
+  margin-right: 10px;
+}
+
+.vanguard div[id^='img'] {
+  margin-right: 10px;
+  width: 200px;
+  display: inline-block;
+}
+
+.vanguard #img1 {
+  content: url('https://static.wikia.nocookie.net/masseffect/images/4/42/Vanguard-Guide.png');
+}
+
+.vanguard #img2 {
+  content: url('https://static.wikia.nocookie.net/masseffect/images/0/01/Vanguard_Class_Image_ME_LE.png');
+}
+
+.vanguard div[id^='affiliate'] {
+  width: 100px;
+  margin-right: -10px;
+  display: inline-block;
+}
+
+/* soldier styles */
+
+.soldier {
+  font-family: "massEffect";
+  font-size: 1.4em;
+  text-align: center;
+  color: white;
+}
+
+.soldier h1 {
+  font-size: 1.4em;
+  font-family: "massEffect";
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+.soldier h1 {
+  font-size: 1.4em;
+  font-family: 'massEffect';
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+.soldier a {
+  color: gold;
+  margin: 0 10px 0 20px;
+}
+
+.soldier a:hover {
+  background-color: olive;
+}
+
+.soldier a:before {
+  margin-right: 10px;
+}
+
+.soldier div[id^='img'] {
+  margin-right: 10px;
+  width: 200px;
+  display: inline-block;
+}
+
+.soldier #img1 {
+  content: url('https://static.wikia.nocookie.net/masseffect/images/2/21/Soldier-Guide.png');
+}
+
+.soldier #img2 {
+  content: url('https://static.wikia.nocookie.net/masseffect/images/7/70/Soldier_Class_Image_ME_LE.png/');
+}
+
+
+.soldier div[id^='affiliate'] {
+  width: 100px;
+  margin-right: -10px;
+  display: inline-block;
+  border: cyan solid;
+}
+
+
+/* engineer styles */
+
+.engineer {
+  font-family: "massEffect";
+  font-size: 1.4em;
+  text-align: center;
+  color: white;
+}
+
+.engineer h1 {
+  font-size: 1.4em;
+  font-family: "massEffect";
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+.engineer a {
+  color: blueviolet;
+  margin: 0 10px 0 20px;
+}
+
+.engineer a:hover {
+  background-color: darkgoldenrod;
+  cursor: url(https://web.archive.org/web/20090731114836/http://hk.geocities.com/godofcat/mcmug/cursor1p2.gif), auto;
+}
+
+.engineer a:before {
+  content: url('https://web.archive.org/web/20091019163523/http://www.geocities.com/sillyerik/checkit.gif');
+  margin-right: 10px;
+}
+
+.engineer div[id^='img'] {
+  margin-right: 10px;
+  width: 200px;
+  display: inline-block;
+}
+
+.engineer #img1 {
+  content: url('https://static.wikia.nocookie.net/masseffect/images/4/48/Engineer-Guide.png');
+}
+
+.engineer #img2 {
+  content: url('https://static.wikia.nocookie.net/masseffect/images/c/c3/Engineer_Class_Image_ME_LE.png');
+}
+
+.engineer div[id^='affiliate'] {
+  width: 100px;
+  margin-right: -10px;
+  display: inline-block;
+}
+
+/* adept styles */
+
+.adept {
+  font-family: "massEffect";
+  font-size: 1.4em;
+  text-align: center;
+  color: white;
+}
+
+.adept h1 {
+  font-size: 1.4em;
+  font-family: "massEffect";
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+.adept a {
+  color: lightslategrey;
+  margin: 0 10px 0 20px;
+}
+
+.adept a:hover {
+  background-color: darkslategray;
+  cursor: url(https://web.archive.org/web/20091026232535/http://www.geocities.com/john_miles_the_cucumber/arnoldcursorpreview.gif), auto;
+}
+
+.adept a:before {
+  content: url('https://web.archive.org/web/20091027043933/http://us.geocities.com/sakyaputto/cursor.gif');
+  margin-right: 10px;
+}
+
+.adept div[id^='img'] {
+  margin-right: 10px;
+  width: 200px;
+  display: inline-block;
+}
+
+.adept #img1 {
+  content: url('https://static.wikia.nocookie.net/masseffect/images/e/ee/Adept-Guide.png');
+}
+
+.adept #img2 {
+  content: url('https://static.wikia.nocookie.net/masseffect/images/d/d1/Adept_Class_Image_ME_LE.png');
+}
+
+
+.adept div[id^='affiliate'] {
+  width: 100px;
+  margin-right: -10px;
+  display: inline-block;
+  border: red solid;
+}
+
+@font-face {
+  font-family: massEffect;
+  src: url('https://unsmiley.github.io/me123.woff');
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+  float: center;
+}
+
+a {
+  display: block;
+  padding: 8px;
+}
+
+body {
+  background-image: url("https://stsci-opo.org/STScI-01GA6KKWG229B16K4Q38CH3BXS.png");
+  font-family: "massEffect";
+  text-shadow: blue 0 3px;
+  background-size: stretch;
+  margin: 0 auto;
+  max-width: 700px;
+  color: white;
+  font-size: 18px;
+}
+
+p {
+  background: rgba(0, 0, 0, .4);
+  padding: 15px;
+  line-height: 1.5;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, .2);
+  color: #FFF;
+}
+
+li {
+  float: left;
+}
+
+li a,
+.dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background: linear-gradient(to bottom right, #000000 0%, #666699 100%);
+}
+
+li a:hover,
+.dropdown:hover .dropbtn {
+  background-color: rgba(0, 0, 0, 1.0);
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #000080;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(122, 127, 128, 1.0);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #000080;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.age {
+  color: red;
+}
+
+.race {
+  font-family: "massEffect";
+  text-shadow: 4px 4px #000080;
+}
+
+h1 {
+  color: white;
+  font-family: 'massEffect';
+  text-align: center;
+}
+
+h3 {
+  color: white;
+  font-family: 'massEffect';
+  text-shadow: 2px 2px #000000;
+}
+
+
+*html .alignsidebar {
+  position: absolute;
+}
+
+a:link,
+a:visited {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: #4444FF;
+  text-decoration: none;
+}
+
+.alignsidebarsub ul {
+  margin: 0;
+  padding: 0;
+  /*list-style:none;*/
+}
+
+.topScore {
+  background-color: rgba(0, 0, 0, 0.9);
+}
