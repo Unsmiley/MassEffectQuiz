@@ -1,8 +1,8 @@
-  /* LIST OF VARIABLES */
-
-  var questionState = 0; //Keeps track of users place in quiz
-  var quizActive = true; //True until last question is answered
-
+/* LIST OF VARIABLES */ 
+  
+  var questionState = 0;  //Keeps track of users place in quiz
+  var quizActive = true;  //True until last question is answered
+    
   var userStats = [
     0, //infiltrator
     0, //sentinel
@@ -11,9 +11,9 @@
     0, //engineer 
     0 //adept
   ];
-
+  
   var tempStats = userStats; //Holds stat increases relating to user selection
-
+  
   /* QUIZ BUILDING VARIABLES */
 
   //The following array contains all question text elements
@@ -278,131 +278,130 @@
     ]
 
   ]
-
   /* SHORTCUT VARIABLES */
   //so I don't have to keep typing
-window.onload = function(){
+
   var results = document.getElementById("results");
   var quiz = document.getElementById("quiz");
   var body = document.body.style;
   var printResult = document.getElementById("topScore");
   var buttonElement = document.getElementById("button");
-
+  
   /* QUIZ FUNCTIONALITY */
-
+  
   buttonElement.addEventListener("click", changeState); //Add click event listener to main button
-}
+  
   /* This function progresses the user through the quiz */
-
-  function changeState() {
-
-    updatePersonality(); //Adds the values of the tempStats to the userStats                    
-
-    if (quizActive) {
-
+  
+  function changeState() {                
+    
+    updatePersonality();  //Adds the values of the tempStats to the userStats                   
+    
+    if (quizActive) { 
+      
       /*True while the user has not reached the end of the quiz */
-
-      initText(questionState); //sets up next question based on user's progress through quiz
-      questionState++; //advances progress through quiz
-
+      
+      initText(questionState);  //sets up next question based on user's progress through quiz
+      questionState++;      //advances progress through quiz
+      
       buttonElement.disabled = true; //disables button until user chooses next answer
-      buttonElement.innerHTML = "Please select an answer";
+      buttonElement.innerHTML = "Please select an answer";      
       buttonElement.style.opacity = 0.7;
-
+      
     } else {
-
+      
       /*All questions answered*/
-
+      
       setCustomPage(); //runs set up for result page
     }
   }
-
+  
   /* This function determines the question and answer content based on user progress through the quiz */
 
-  function initText(question) {
-
+  function initText(question) {             
+    
     var answerSelection = ""; //text varialbe containting HTML code for the radio buttons' content
-
+    
     /* Creates radio buttons based on user progress through the quiz - current 'id' generation is not w3c compliant*/
-
-    for (i = 0; i < answerText[question].length; i++) {
-
+    
+    for (i = 0; i < answerText[question].length; i++) {   
+      
       answerSelection += "<li><input type='radio' name='question" +
-        (question + 1) + "' onClick='setAnswer(" + i + ")' id='" + answerText[question][i] + "'><label for='" + answerText[question][i] + "'>" + answerText[question][i] + "</label></li>";
+      (question+1) + "' onClick='setAnswer("+i+")' id='" + answerText[question][i] + "'><label for='" + answerText[question][i] + "'>" + answerText[question][i] + "</label></li>";
     }
-
-    document.getElementById("questions").innerHTML = questionText[question]; //set question text
-    document.getElementById("answers").innerHTML = answerSelection; //set answer text
+    
+    document.getElementById("questions").innerHTML = questionText[question];  //set question text
+    document.getElementById("answers").innerHTML = answerSelection;       //set answer text
   }
-
+  
   /* This function is called when a user selects an answer, NOT when answer is submitted */
-
+  
   function setAnswer(input) {
-
-    clearTempStats(); //clear tempStats in case user reselects their answer
-
-    tempStats = answerValues[questionState - 1][input]; //selects personality values based on user selection 
-
+        
+    clearTempStats();                 //clear tempStats in case user reselects their answer
+    
+    tempStats = answerValues[questionState-1][input]; //selects personality values based on user selection 
+        
     if (questionState < questionText.length) {
-
+      
       /*True while the user has not reached the end of the quiz */
-
+      
       buttonElement.innerHTML = "Continue";
       buttonElement.disabled = false;
       buttonElement.style.opacity = 1;
-
+          
     } else {
-
+      
       /*All questions answered - QUESTION TIME IS OVER!*/
-
+      
       quizActive = false;
       buttonElement.innerHTML = "Let's see those results!"
       buttonElement.disabled = false;
       buttonElement.style.opacity = 1;
     }
   }
-
+  
   /* This function sets tempStats to 0 */
-
+  
   function clearTempStats() {
-
-    tempStats = [0, 0, 0, 0, 0, 0];
+    
+    tempStats = [0,0,0,0,0,0];  
   }
-
+  
   /*This function adds the values of the tempStats to the userStats based on user selection */
-
+  
   function updatePersonality() {
-
-    for (i = 0; i < userStats.length; i++) {
+    
+    for (i = 0; i < userStats.length ; i++) {
       userStats[i] += tempStats[i];
     }
   }
-
+  
   /* This function determines the highest personality value */
-
+  
   function setCustomPage() {
-
-    var highestStatPosition = 0;
-
+    
+    var highestStatPosition = 0;  //highest stat defaults as 'cute'
+    
     /* This statement loops through all personality stats and updates highestStatPosition based on a highest stat */
-
-    for (i = 1; i < userStats.length; i++) {
-
+    
+    for (i = 1 ; i < userStats.length; i++) {
+      
       if (userStats[i] > userStats[highestStatPosition]) {
         highestStatPosition = i;
       }
     }
-
+    
     displayCustomPage(highestStatPosition); //passes the index value of the highest stat discovered
-
+    
     /* Hides the quiz content, shows results content */
-    quiz.style.display = "none";
+    quiz.style.display = "none";    
   }
-
+  
   /* BUILDS WEB PAGE AS PER RESULTS OF THE QUIZ */
-
+  
   /* The following code manipulates the CSS based on the personality results */
-
+      
   function displayCustomPage(personality) {
     switch (personality) {
 
