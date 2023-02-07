@@ -502,6 +502,8 @@ ul {
   overflow: hidden;
   background-color: rgba(0, 0, 0, .2);
   color: #FFF;
+  width: 170%;
+  text-align: left;
 }
 
 li {
@@ -510,11 +512,10 @@ li {
 
 li a,
 .dropbtn {
-  display: inline-block;
   color: white;
-  text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  font-size: 12px;
   background: linear-gradient(to bottom right, #000000 0%, #666699 100%);
 }
 
