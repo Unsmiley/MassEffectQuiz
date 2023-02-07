@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Mass Effect Class Quiz</title>
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Karla|Londrina+Sketch|Megrim|Special+Elite|Press+Start+2P|Bangers'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+
+<ul>
+  <li><a href="https://masseffectquiz.com">Home</a></li>
+  <li><a href="https://masseffect.fandom.com/wiki/Mass_Effect_Wiki">Wiki</a></li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Nexus Mods</a>
+    <div class="dropdown-content">
+      <a href="https://www.nexusmods.com/masseffect">Mass Effect</a>
+      <a href="https://www.nexusmods.com/masseffect2">Mass Effect 2</a>
+      <a href="https://www.nexusmods.com/masseffect3">Mass Effect 3</a>
+      <a href="https://www.nexusmods.com/masseffectlegendaryedition">Mass Effect LE</a>
+      <a href="https://www.nexusmods.com/masseffectandromeda">Mass Effect Andromeda</a>
+    </div>
+  </li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Races</a>
+    <div class="dropdown-content">
+      <a href="https://masseffect.fandom.com/wiki/Human">Humans</a>
+      <a href="https://masseffect.fandom.com/wiki/Asari">Asari</a>
+      <a href="https://masseffect.fandom.com/wiki/Turian">Turians</a>
+      <a href="https://masseffect.fandom.com/wiki/Salarian">Salarians</a>
+      <a href="https://masseffect.fandom.com/wiki/Krogan">Krogan</a>
+      <a href="https://masseffect.fandom.com/wiki/Quarian">Quarians</a>
+      <a href="https://masseffect.fandom.com/wiki/Batarian">Batarians</a>
+      <a href="https://masseffect.fandom.com/wiki/Volus">Volus</a>
+      <a href="https://masseffect.fandom.com/wiki/Rachni">Rachni</a>
+      <a href="https://masseffect.fandom.com/wiki/Geth">Geth</a>
+    </div>
+  </li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Classes</a>
+    <div class="dropdown-content">
+      <a href="https://masseffect.fandom.com/wiki/Soldier">Soldiers</a>
+      <a href="https://masseffect.fandom.com/wiki/Engineer">Engineers</a>
+      <a href="https://masseffect.fandom.com/wiki/Adept">Adepts</a>
+      <a href="https://masseffect.fandom.com/wiki/Infiltrator">Infiltrators</a>
+      <a href="https://masseffect.fandom.com/wiki/Vanguard">Vanguards</a>
+      <a href="https://masseffect.fandom.com/wiki/Sentinel">Sentinels</a>
+    </div>
+  </li>
+</ul>
+<div id="quiz">
+  <h1> Mass Effect Class Quiz</h1>
+  <div id="questions">Are you ready to find out what kind of warrior you are?</div>
+  <ul id="answers">
+  </ul>
+  <div style="clear: both"></div>
+  <button id="button" class="button">Start quiz</button>
+</div>
+<a>
+  <div id="results">
+    <h1>Congratulations, you are:</h1>
+    <br>
+    <div id="img1"></div>
+    <br>
+    <div id="img2"></div>
+  </div>
+	<p><span id="topScore"></span></p>
+</a>
+<br>
+<br>
+<p><a href="javascript:window.location.href=window.location.href">Restart quiz</a></p>
+<div id="error">
+  <p>There was an error. Please try again</p>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div id="disqus_thread"></div>
+<script>
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://https-oljoph-github-io-joseph.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<script id="dsq-count-scr" src="//https-oljoph-github-io-joseph.disqus.com/count.js" async></script>
+
+</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1076729754226587"
+     crossorigin="anonymous"></script>
+</body>
+</html>
