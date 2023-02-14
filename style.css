@@ -40,11 +40,10 @@ h1 {
 
 #answers {
   list-style-type: none;
-  margin: 25px 0 0 0;
+  margin: 2px 0 0 0;
   padding: 20px;
   letter-spacing: 2px;
   text-align: center;
-  margin-left: 77.5px;
 }
 
 #answers li {
@@ -53,7 +52,7 @@ h1 {
   margin: 0px 15px 15px 0px;
   /*for determining distance between answers */
   width: 250px;
-  height: 120px;
+  height: 220px;
   border: 2px orange solid;
   position: relative;
   padding: 15px;
