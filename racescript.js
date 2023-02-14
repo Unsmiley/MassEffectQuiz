@@ -265,7 +265,7 @@
 	  [
 	    "With the Batarian Hegemony all but extinct, a major power player for the slave trade is out of commission. I'm going to spearhead the effort to eliminate slavery from the Milky Way Galaxy.",
 	    "The Reapers scoured countless worlds, leaving vast areas devoid of influence and management. With this power vacuum, the real estate market will be lucrative...with my help in balancing the scales.",
-	    "The war was devasting for the mercenary scene, but it did wonders for unifying the races. With the hierarchy of the Blue Suns, Eclipse, and Blood Pack in shambles, now is the time to forge a new organization from the remnants. With veteran members from each of the surviving races, we will be a political and military force to be reckoned with.",
+	    "The war was devasting for the mercenary scene, but it did wonders for unifying the races. Now is the time to forge a new organization from the remnants. With veteran members from each of the surviving races, we will be a political and military force to be reckoned with.",
 	    "Relative harmony among the races has been established due to a common enemy in the Reapers, but we can't afford to make the same mistakes. There's a lot of diplomatic work to be done before peace is a mainstay."
 	  ],
 
@@ -463,7 +463,7 @@
 	    [0, 0, 2, 0, 0, 2, 0, 0, 0, 0],
 	    [2, 2, 0, 0, 2, 0, 0, 2, 0, 0],
 	    [0, 0, 0, 2, 0, 0, 2, 0, 2, 2]
-	   ],
+	  ],
 
 	  //question 6 answer values
 	  [
@@ -614,18 +614,16 @@
 	  //question 24 answer values
 	  [
 	    [0, 0, 0, 0, 2, 0, 0, 0, 0, 0],
-	    [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-	    [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-	    [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-	    [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-	    [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+	    [0, 0, 2, 0, 0, 0, 0, 0, 0, 0],
+	    [0, 2, 0, 0, 0, 0, 0, 0, 0, 0]
 	  ],
 
 	  //question 25 answer values
 	  [
-	    [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-	    [0, 0, 2, 0, 0, 0, 0, 0, 0, 0],
-	    [0, 2, 0, 0, 0, 0, 0, 0, 0, 0]
+	    [0, 0, 0, 0, 0, 0, 4, 0, 0, 0],
+	    [0, 0, 0, 0, 2, 0, 0, 0, 2, 0],
+	    [2, 0, 2, 0, 0, 0, 0, 0, 0, 0],
+	    [0, 0, 0, 0, 0, 2, 0, 2, 0, 0]
 	  ],
 
 	  //question 26 answer values
@@ -703,7 +701,7 @@
 
 	  //question 36 answer values
 	  [
-      [3, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+	    [3, 0, 0, 0, 0, 0, 0, 0, 0, 0],
 	    [0, 0, 0, 0, 0, 0, 3, 0, 0, 0],
 	  ],
 
@@ -744,15 +742,15 @@
 	    [0, 0, 0, 0, 0, 0, 0, 3, 0, 0],
 	    [0, 0, 0, 0, 0, 0, 3, 0, 0, 0]
 	  ],
-    
-    	  //question 42 answer values
+
+	  //question 42 answer values
 	  [
 	    [2, 0, 0, 0, 0, 0, 0, 0, 0, 0],
 	    [0, 0, 0, 2, 0, 0, 0, 0, 0, 0],
 	    [0, 0, 0, 0, 0, 0, 2, 0, 0, 0]
 	  ],
-    
-    	  //question 43 answer values
+
+	  //question 43 answer values
 	  [
 	    [0, 0, 2, 0, 0, 0, 0, 0, 0, 0],
 	    [0, 2, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -805,7 +803,7 @@
 
 	function initText(question) {
 
-	  var answerSelection = ""; //text varialbe containting HTML code for the radio buttons' content
+	  var answerSelection = ""; //text variable containting HTML code for the radio buttons' content
 
 	  /* Creates radio buttons based on user progress through the quiz - current 'id' generation is not w3c compliant*/
 
@@ -945,8 +943,8 @@
 	      printResult.innerText = "Quarians are the once-proud inhabitants of Rannoch, a planet similar to Earth in size, sleeping just within the Perseus Veil. A desert planet, the importance of plant life on Rannoch is so great that it lives in its very name, as 'Rannoch' translates to 'walled garden'. It is this lack of diverse life that led to the Quarians, the former native colonists of Rannoch, to develop weaker immune systems over time, causing their bodies to try to adapt to foreign objects rather than develop resistances, as seen in other species. As a result, the Quarians were forced to encapsulate themselves in environmental suits once they were forced to leave Rannoch in a mass exodus, following the fateful conflict known throughout the galaxy as the Morning War. Around approximately 1850 CE, the Quarian race had already made contact with the Citadel and its council; as a result, they were aware of the severe laws in place prohibiting the development of artificial intelligence. Despite this, they developed the Geth, a machine race with limited processing power, in order to assist with warfare and everyday tasks. However, as the complexity of these tasks increased, so did the development of the Geth's neural network, which in time led to the Geth developing sentience nearly unchecked. <br><br>To the dismay of many Quarians, martial law was declared by the government, and all Geth were ordered to be terminated; Quarian sympathizers were either captured or killed. With the Geth reacting desperately out of self-preservation, a brutal and costly war erupted all over Rannoch, with billions of Quarians dying as a result. The survivors, stripped of their embassy from the Citadel Counil for breaking its most severe laws, would escape into space, beginning the nomadic lifestyle for what would become the Migrant Fleet. The phrase 'Keelah se'lai', which means 'By the home world I hope to see one day,' is indicative of the Quarian race's greatest wish to reclaim Rannoch.";
 	      break;
 
-        
-case 6: //volus
+
+	    case 6: //volus
 	      results.style.display = "inline-block";
 	      results.classList.add("volus");
 	      body.background = "none";
