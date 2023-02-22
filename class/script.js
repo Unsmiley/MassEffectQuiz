@@ -390,7 +390,7 @@
 
 	function setCustomPage() {
 
-	  var highestStatPosition = 0; //highest stat defaults as 'cute'
+	  var highestStatPosition = 0; 
 
 	  /* This statement loops through all personality stats and updates highestStatPosition based on a highest stat */
 
@@ -419,6 +419,7 @@
 	      results.classList.add("infiltrator");
 	      body.background = "none";
 	      body.backgroundImage = "url('https://stsci-opo.org/STScI-01G8GZQ3ZFJRD8YF8YZWMAXCE3.png')";
+	      body.backgroundColor = "#008080";
 	      body.backgroundSize = "100% auto";
 	      printResult.innerText = "An Infiltrator! \n \n Infiltrators are the most talented assassins in the galaxy, blending their tech powers with high burst damage to dismantle even the most powerful opponents as quickly as possible. In most cases, infiltrators weaponize a potent tactical cloak, sacrificing shield regeneration for the ability to move unseen in and out of danger. This cloak, partnered with the element of surprise, give infiltrators the greatest damage output of the classes while affording them temporary safety as well. \n \n While most infiltrators are glass cannons, they will compensate by combining high movement speed and awareness of their surroundings to avoid being caught out by their foes. The best infiltrators focus their attention on only the most dangerous enemy units, leaving the rabble at the mercy of their companions.";
 	      break;
@@ -428,6 +429,7 @@
 	      results.classList.add("sentinel");
 	      body.background = "none";
 	      body.backgroundImage = "url('https://stsci-opo.org/STScI-01G8GZQ3ZFJRD8YF8YZWMAXCE3.png')";
+	      body.backgroundColor = "#008080";
 	      body.backgroundSize = "100% auto";
 	      printResult.innerText = "A Sentinel! \n \n Sentinels are built to be survivors in every sense of the word. The most support-oriented of the classes, sentinels blend biotics and tech powers to strip enemies of any defense, while supporting their own teammates with advanced medical capabilities. \n \n While rivaling the adept for the lowest damage output of the classes, the sentinel compensates by having the invaluable tech armor, which gives them an immediate shield boost that not only gives them the strongest defense of any class, but can deal a fatal pulse of energy when it is depleted, giving its user one last defense against any enemy unfortunate enough to be caught in its radius. \n \n The best sentinels remain with their team, taking what damage their partners can't while distributing both defensive and offensive support with their wide array of abilities.";
 	      break;
@@ -439,7 +441,7 @@
 	      body.backgroundImage = "url('https://stsci-opo.org/STScI-01G8GZQ3ZFJRD8YF8YZWMAXCE3.png')";
 	      body.backgroundColor = "#008080";
 	      body.backgroundSize = "100% auto";
-	      printResult.innerText = "A Vanguard! \n \n Vanguards are the deadliest close quarters combatants on the battlefield. Making up for what they lack in firepower in sheer mobility, vanguards are able to close vast distances with their trademark Biotic Charge ability, stunning enemies and keeping their shields high for dealing with the groups of enemies they tend to surround themselves in.\n \n Vanguards serve two main purposes—to eliminate key targets in a small amount of time, normally by the 1-2 combo of charging their target, followed by a well-aimed shotgun round—and to focus enemy attention on themselves. \n \n By blitzing entire waves of enemies, or more dangerous foes such as brutes or ATLAS mechs, a good vanguard is able to dance with death, aggravating enemies to the point of tunnel-visioning, so that their teammates can deal damage with little interference.";
+	      printResult.innerText = "A Vanguard! \n \n Vanguards are the deadliest close quarters combatants on the battlefield. Making up for what they lack in firepower with sheer mobility, vanguards are able to close vast distances with their trademark Biotic Charge ability, rattling enemies and keeping their shields high for dealing with the groups of foes they tend to surround themselves in.\n \n Vanguards serve two main purposes—to eliminate key targets in a small amount of time, normally by the 1-2 combo of charging their target, followed by a well-aimed shotgun round—and to focus enemy attention on themselves. \n \n By blitzing entire waves of enemies, or more dangerous foes such as brutes or ATLAS mechs, a good vanguard is able to dance with death, aggravating enemies to the point of tunnel-visioning, so that their teammates can deal damage with little interference.";
 	      break;
 
 	    case 3: //soldier
@@ -447,6 +449,7 @@
 	      results.classList.add("soldier");
 	      body.background = "none";
 	      body.backgroundImage = "url('https://stsci-opo.org/STScI-01G8GZQ3ZFJRD8YF8YZWMAXCE3.png')";
+	      body.backgroundColor = "#008080";
 	      body.backgroundSize = "100% auto";
 	      printResult.innerText = "A Soldier! \n \n Soldiers are among the most robust warriors in the galaxy. Strong, fast, and experts in waging war, soldiers seek to overwhelm their enemies with firepower and sheer force. Though they lack the resources of tech specialists or biotics, soldiers will compensate by preparing to confront any nature of enemy before stepping foot on the battlefield. \n \n Trained in every manner of handheld weaponry, a good soldier puts an enemy at a disadvantage by stripping away their defenses and incapacitating them, whether by means of explosives, special ammo, or disruptive concussive shots to throw them off-balance. \n \n The best soldiers are prepared for any combat scenario, capable of fending off hordes of enemies or focusing down deadly specialized units.";
 	      break;
@@ -456,6 +459,7 @@
 	      results.classList.add("engineer");
 	      body.background = "none";
 	      body.backgroundImage = "url('https://stsci-opo.org/STScI-01G8GZQ3ZFJRD8YF8YZWMAXCE3.png')";
+	      body.backgroundColor = "#008080";
 	      body.backgroundRepeat = "repeat";
 	      printResult.innerText = "An Engineer! \n \n Engineers are the undisputed masters of area denial, exceeding all other classes when it comes to holding a defensive position against an onslaught of enemies. \n \n While typically favoring either shotguns or machine pistols, engineers use tech powers to overwhelm their opponents both physically and mentally; this can come in the form of harassment with the ever-present combat drone, hacking enemies mechs to cause disruption, or incapacitating unshielded opponents with chemical fire and ice. \n \n The best engineers shape the ebb and flow of the battlefield itself, defending key positions while also using their abilities to safely force their way into heavily defended chokepoints for their teammates.";
 	      break;
@@ -465,6 +469,7 @@
 	      results.classList.add("adept");
 	      body.background = "none";
 	      body.backgroundImage = "url('https://stsci-opo.org/STScI-01G8GZQ3ZFJRD8YF8YZWMAXCE3.png')";
+	      body.backgroundColor = "#008080";
 	      body.backgroundRepeat = "repeat";
 	      printResult.innerText = "An Adept! \n \n Adepts make up in crowd control what they lack in sheer firepower. Masters of biotic warfare, adepts channel dark energy in all its deadly forms, staggering even the most heavily defended foes and ripping apart the unprepared. \n \n An unchecked adept can singlehandedly turn the tide of any given battle, using their biotic powers to bombard their enemies with warp fields, throw and pull objects and enemies hard enough to shatter bones, or immobilize entire groups with singularities. \n \n The best adepts stay with their teams, often serving as the rear guard, and focus attention on immobilizing unshielded enemies to take them out of the fight, or securing the backlines against flanking enemies such as husks, FENRIS mechs, or varren.";
 	      break;
