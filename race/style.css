@@ -115,16 +115,17 @@ h1 {
   display: none;
 }
 
-/*GEOCITIES WEBPAGE STYLES */
-/* infiltrator styles */
-.infiltrator {
+/*Results Styles */
+
+/* human styles */
+.human {
   font-family: "massEffect";
   font-size: 1.4em;
   text-align: center;
   color: white;
 }
 
-.infiltrator h1 {
+.human h1 {
   font-size: 1.4em;
   font-family: "massEffect";
 }
@@ -135,49 +136,49 @@ h1 {
   }
 }
 
-.infiltrator a {
+.human a {
   color: yellow;
   margin: 0 10px 0 20px;
 }
 
-.infiltrator a:hover {
+.human a:hover {
   background-color: blue;
 }
 
-.infiltrator a:before {
+.human a:before {
   margin-right: 10px;
 }
 
-.infiltrator div[id^='img'] {
+.human div[id^='img'] {
   margin-right: 10px;
   width: 200px;
   display: inline-block;
 }
 
-.infiltrator #img1 {
+.human #img1 {
   content: url('https://static.wikia.nocookie.net/masseffect/images/a/aa/Infiltrator-Guide.png');
 }
 
-.infiltrator #img2 {
+.human #img2 {
   content: url('https://static.wikia.nocookie.net/masseffect/images/3/3f/Infiltratorclasstransp.png');
 }
 
-.infiltrator div[id^='affiliate'] {
+.human div[id^='affiliate'] {
   width: 100px;
   margin-right: -10px;
   display: inline-block;
 }
 
-/* sentinel styles */
+/* turian styles */
 
-.sentinel {
+.turian {
   font-family: "massEffect";
   font-size: 1.4em;
   text-align: center;
   color: white;
 }
 
-.sentinel h1 {
+.turian h1 {
   font-size: 1.4em;
   font-family: "massEffect";
 }
@@ -188,50 +189,50 @@ h1 {
   }
 }
 
-.sentinel a {
+.turian a {
   color: darkgrey;
   margin: 0 10px 0 20px;
 }
 
 
-.sentinel a:before {
+.turian a:before {
   content: url('https://web.archive.org/web/20091023163201/http://geocities.com/warhawkuac/doom/doomskullcursor.gif');
   margin-right: 10px;
 }
 
-.sentinel div[id^='img'] {
+.turian div[id^='img'] {
   margin-right: 10px;
   width: 200px;
   display: inline-block;
 }
 
-.sentinel #img1 {
+.turian #img1 {
   content: url('https://static.wikia.nocookie.net/masseffect/images/d/d5/Sentinel-Guide.png');
   margin: auto;
 }
 
-.sentinel #img2 {
+.turian #img2 {
   content: url('https://static.wikia.nocookie.net/masseffect/images/2/2c/Sentinel_Class_Image_ME_LE.png/');
   margin: auto;
 }
 
-.sentinel div[id^='affiliate'] {
+.turian div[id^='affiliate'] {
   width: 100px;
   margin-right: -10px;
   display: inline-block;
   border: red solid;
 }
 
-/* vanguard styles */
+/* asari styles */
 
-.vanguard {
+.asari {
   font-family: "massEffect";
   font-size: 1.4em;
   text-align: center;
   color: white;
 }
 
-.vanguard h1 {
+.asari h1 {
   font-size: 1.4em;
   font-family: 'massEffect';
 }
@@ -242,51 +243,51 @@ h1 {
   }
 }
 
-.vanguard a {
+.asari a {
   color: darkorange;
   margin: 0 10px 0 20px;
 }
 
-.vanguard a:hover {
+.asari a:hover {
   background-color: green;
   cursor: url(https://web.archive.org/web/20091027003810/http://ca.geocities.com/EverlastingIllusions/Miscellanous/Cursor9.gif), auto;
 }
 
-.vanguard a:before {
+.asari a:before {
   content: url('https://web.archive.org/web/20090829195701/http://geocities.com/Athens/Parthenon/5567/dotdance.gif');
   margin-right: 10px;
 }
 
-.vanguard div[id^='img'] {
+.asari div[id^='img'] {
   margin-right: 10px;
   width: 200px;
   display: inline-block;
 }
 
-.vanguard #img1 {
-  content: url('https://static.wikia.nocookie.net/masseffect/images/4/42/Vanguard-Guide.png');
+.asari #img1 {
+  content: url('');
 }
 
-.vanguard #img2 {
-  content: url('https://static.wikia.nocookie.net/masseffect/images/0/01/Vanguard_Class_Image_ME_LE.png');
+.asari #img2 {
+  content: url('https://www.kindpng.com/picc/m/702-7024695_asari-special-forces-mass-effect-characters-png-transparent.png');
 }
 
-.vanguard div[id^='affiliate'] {
+.asari div[id^='affiliate'] {
   width: 100px;
   margin-right: -10px;
   display: inline-block;
 }
 
-/* soldier styles */
+/* salarian styles */
 
-.soldier {
+.salarian {
   font-family: "massEffect";
   font-size: 1.4em;
   text-align: center;
   color: white;
 }
 
-.soldier h1 {
+.salarian h1 {
   font-size: 1.4em;
   font-family: "massEffect";
 }
@@ -297,7 +298,7 @@ h1 {
   }
 }
 
-.soldier h1 {
+.salarian h1 {
   font-size: 1.4em;
   font-family: 'massEffect';
 }
@@ -308,35 +309,35 @@ h1 {
   }
 }
 
-.soldier a {
+.salarian a {
   color: gold;
   margin: 0 10px 0 20px;
 }
 
-.soldier a:hover {
+.salarian a:hover {
   background-color: olive;
 }
 
-.soldier a:before {
+.salarian a:before {
   margin-right: 10px;
 }
 
-.soldier div[id^='img'] {
+.salarian div[id^='img'] {
   margin-right: 10px;
   width: 200px;
   display: inline-block;
 }
 
-.soldier #img1 {
+.salarian #img1 {
   content: url('https://static.wikia.nocookie.net/masseffect/images/2/21/Soldier-Guide.png');
 }
 
-.soldier #img2 {
+.salarian #img2 {
   content: url('https://static.wikia.nocookie.net/masseffect/images/7/70/Soldier_Class_Image_ME_LE.png/');
 }
 
 
-.soldier div[id^='affiliate'] {
+.salarian div[id^='affiliate'] {
   width: 100px;
   margin-right: -10px;
   display: inline-block;
@@ -344,16 +345,16 @@ h1 {
 }
 
 
-/* engineer styles */
+/* krogan styles */
 
-.engineer {
+.krogan {
   font-family: "massEffect";
   font-size: 1.4em;
   text-align: center;
   color: white;
 }
 
-.engineer h1 {
+.krogan h1 {
   font-size: 1.4em;
   font-family: "massEffect";
 }
@@ -364,51 +365,51 @@ h1 {
   }
 }
 
-.engineer a {
+.krogan a {
   color: blueviolet;
   margin: 0 10px 0 20px;
 }
 
-.engineer a:hover {
+.krogan a:hover {
   background-color: darkgoldenrod;
   cursor: url(https://web.archive.org/web/20090731114836/http://hk.geocities.com/godofcat/mcmug/cursor1p2.gif), auto;
 }
 
-.engineer a:before {
+.krogan a:before {
   content: url('https://web.archive.org/web/20091019163523/http://www.geocities.com/sillyerik/checkit.gif');
   margin-right: 10px;
 }
 
-.engineer div[id^='img'] {
+.krogan div[id^='img'] {
   margin-right: 10px;
   width: 200px;
   display: inline-block;
 }
 
-.engineer #img1 {
+.krogan #img1 {
   content: url('https://static.wikia.nocookie.net/masseffect/images/4/48/Engineer-Guide.png');
 }
 
-.engineer #img2 {
+.krogan #img2 {
   content: url('https://static.wikia.nocookie.net/masseffect/images/c/c3/Engineer_Class_Image_ME_LE.png');
 }
 
-.engineer div[id^='affiliate'] {
+.krogan div[id^='affiliate'] {
   width: 100px;
   margin-right: -10px;
   display: inline-block;
 }
 
-/* adept styles */
+/* quarian styles */
 
-.adept {
+.quarian {
   font-family: "massEffect";
   font-size: 1.4em;
   text-align: center;
   color: white;
 }
 
-.adept h1 {
+.quarian h1 {
   font-size: 1.4em;
   font-family: "massEffect";
 }
@@ -419,42 +420,273 @@ h1 {
   }
 }
 
-.adept a {
+.quarian a {
   color: lightslategrey;
   margin: 0 10px 0 20px;
 }
 
-.adept a:hover {
+.quarian a:hover {
   background-color: darkslategray;
   cursor: url(https://web.archive.org/web/20091026232535/http://www.geocities.com/john_miles_the_cucumber/arnoldcursorpreview.gif), auto;
 }
 
-.adept a:before {
+.quarian a:before {
   content: url('https://web.archive.org/web/20091027043933/http://us.geocities.com/sakyaputto/cursor.gif');
   margin-right: 10px;
 }
 
-.adept div[id^='img'] {
+.quarian div[id^='img'] {
   margin-right: 10px;
   width: 200px;
   display: inline-block;
 }
 
-.adept #img1 {
+.quarian #img1 {
   content: url('https://static.wikia.nocookie.net/masseffect/images/e/ee/Adept-Guide.png');
 }
 
-.adept #img2 {
+.quarian #img2 {
   content: url('https://static.wikia.nocookie.net/masseffect/images/d/d1/Adept_Class_Image_ME_LE.png');
 }
 
 
-.adept div[id^='affiliate'] {
+.quarian div[id^='affiliate'] {
   width: 100px;
   margin-right: -10px;
   display: inline-block;
   border: red solid;
 }
+
+/* volus styles */
+
+.volus {
+  font-family: "massEffect";
+  font-size: 1.4em;
+  text-align: center;
+  color: white;
+}
+
+.volus h1 {
+  font-size: 1.4em;
+  font-family: "massEffect";
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+.volus a {
+  color: lightslategrey;
+  margin: 0 10px 0 20px;
+}
+
+.volus a:hover {
+  background-color: darkslategray;
+  cursor: url(https://web.archive.org/web/20091026232535/http://www.geocities.com/john_miles_the_cucumber/arnoldcursorpreview.gif), auto;
+}
+
+.volus a:before {
+  content: url('https://web.archive.org/web/20091027043933/http://us.geocities.com/sakyaputto/cursor.gif');
+  margin-right: 10px;
+}
+
+.volus div[id^='img'] {
+  margin-right: 10px;
+  width: 200px;
+  display: inline-block;
+}
+
+.volus #img1 {
+  content: url('https://static.wikia.nocookie.net/masseffect/images/e/ee/Adept-Guide.png');
+}
+
+.volus #img2 {
+  content: url('https://static.wikia.nocookie.net/masseffect/images/d/d1/Adept_Class_Image_ME_LE.png');
+}
+
+
+.volus div[id^='affiliate'] {
+  width: 100px;
+  margin-right: -10px;
+  display: inline-block;
+  border: red solid;
+}
+
+
+/* batarian styles */
+
+.batarian {
+  font-family: "massEffect";
+  font-size: 1.4em;
+  text-align: center;
+  color: white;
+}
+
+.batarian h1 {
+  font-size: 1.4em;
+  font-family: "massEffect";
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+.batarian a {
+  color: lightslategrey;
+  margin: 0 10px 0 20px;
+}
+
+.batarian a:hover {
+  background-color: darkslategray;
+  cursor: url(https://web.archive.org/web/20091026232535/http://www.geocities.com/john_miles_the_cucumber/arnoldcursorpreview.gif), auto;
+}
+
+.batarian a:before {
+  content: url('https://web.archive.org/web/20091027043933/http://us.geocities.com/sakyaputto/cursor.gif');
+  margin-right: 10px;
+}
+
+.batarian div[id^='img'] {
+  margin-right: 10px;
+  width: 200px;
+  display: inline-block;
+}
+
+.batarian #img1 {
+  content: url('https://static.wikia.nocookie.net/masseffect/images/e/ee/Adept-Guide.png');
+}
+
+.batarian #img2 {
+  content: url('https://static.wikia.nocookie.net/masseffect/images/d/d1/Adept_Class_Image_ME_LE.png');
+}
+
+
+.batarian div[id^='affiliate'] {
+  width: 100px;
+  margin-right: -10px;
+  display: inline-block;
+  border: red solid;
+}
+
+/* rachni styles */
+
+.rachni {
+  font-family: "massEffect";
+  font-size: 1.4em;
+  text-align: center;
+  color: white;
+}
+
+.rachni h1 {
+  font-size: 1.4em;
+  font-family: "massEffect";
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+.rachni a {
+  color: lightslategrey;
+  margin: 0 10px 0 20px;
+}
+
+.rachni a:hover {
+  background-color: darkslategray;
+  cursor: url(https://web.archive.org/web/20091026232535/http://www.geocities.com/john_miles_the_cucumber/arnoldcursorpreview.gif), auto;
+}
+
+.rachni a:before {
+  content: url('https://web.archive.org/web/20091027043933/http://us.geocities.com/sakyaputto/cursor.gif');
+  margin-right: 10px;
+}
+
+.rachni div[id^='img'] {
+  margin-right: 10px;
+  width: 200px;
+  display: inline-block;
+}
+
+.rachni #img1 {
+  content: url('https://static.wikia.nocookie.net/masseffect/images/e/ee/Adept-Guide.png');
+}
+
+.rachni #img2 {
+  content: url('https://static.wikia.nocookie.net/masseffect/images/d/d1/Adept_Class_Image_ME_LE.png');
+}
+
+
+.rachni div[id^='affiliate'] {
+  width: 100px;
+  margin-right: -10px;
+  display: inline-block;
+  border: red solid;
+}
+
+
+/* geth styles */
+
+.geth {
+  font-family: "massEffect";
+  font-size: 1.4em;
+  text-align: center;
+  color: white;
+}
+
+.geth h1 {
+  font-size: 1.4em;
+  font-family: "massEffect";
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+.geth a {
+  color: lightslategrey;
+  margin: 0 10px 0 20px;
+}
+
+.geth a:hover {
+  background-color: darkslategray;
+  cursor: url(https://web.archive.org/web/20091026232535/http://www.geocities.com/john_miles_the_cucumber/arnoldcursorpreview.gif), auto;
+}
+
+.geth a:before {
+  content: url('https://web.archive.org/web/20091027043933/http://us.geocities.com/sakyaputto/cursor.gif');
+  margin-right: 10px;
+}
+
+.geth div[id^='img'] {
+  margin-right: 10px;
+  width: 200px;
+  display: inline-block;
+}
+
+.geth #img1 {
+  content: url('https://static.wikia.nocookie.net/masseffect/images/e/ee/Adept-Guide.png');
+}
+
+.geth #img2 {
+  content: url('https://static.wikia.nocookie.net/masseffect/images/d/d1/Adept_Class_Image_ME_LE.png');
+}
+
+
+.geth div[id^='affiliate'] {
+  width: 100px;
+  margin-right: -10px;
+  display: inline-block;
+  border: red solid;
+}
+/*Everything else */
 
 @font-face {
   font-family: massEffect;
